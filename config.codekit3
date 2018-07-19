@@ -9,18 +9,11 @@
 	],
 "creatorBuild": "26680",
 "files": {
-	"\/_notes\/dwsync.xml": {
+	"\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_notes\/dwsync.xml",
-		"oF": 0
-		},
-	"\/assets\/_notes\/dwsync.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/_notes\/dwsync.xml",
+		"oAP": "\/.gitignore",
 		"oF": 0
 		},
 	"\/assets\/css\/_notes\/dwsync.xml": {
