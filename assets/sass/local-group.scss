@@ -51,7 +51,7 @@
 		text-align: center;
 	}
 }
-.Module__fullWidthCareerFinancial,
+.Module__fullWidthInternshipsCareersAftervassar,
 .Module__fullWidthResidentialLife,
 .Module__fullWidthHealthWellness {
 	.Module__desc {
@@ -96,7 +96,7 @@
 	.Module__fullWidthSafetySecurity .Module__desc ul {
 		text-align: center;
 	}
-	.Module__fullWidthCareerFinancial,
+	.Module__fullWidthInternshipsCareersAftervassar,
 	.Module__fullWidthResidentialLife,
 	.Module__fullWidthStudentLife,
 	.Module__fullWidthCivicEngagement {
@@ -127,9 +127,10 @@
             text-align: center;
         }
     }
-	.Module__fullWidthCareerFinancial {
+	.Module__fullWidthInternshipsCareersAftervassar {
 		.Module__list {
-			margin-top: 15em;
+			margin-top:4%;
+            margin-bottom: 22em
 		}
 	}
 }
@@ -149,9 +150,10 @@
 			}
         }
     }
-	.Module__fullWidthCareerFinancial {
+	.Module__fullWidthInternshipsCareersAftervassar {
 		.Module__list {
-			margin-top: 44em;
+			margin-top: 35em;
+            margin-bottom: 4%;
 		}
 	}
 }
@@ -165,8 +167,8 @@
 .Module__fullWidthCommunity {
     @extend .vassar_argyle;
 }
-.Module__fullWidthCareerFinancial {
-    background: #666 url(../../../assets/images/campuslife-Post-Office-0709-JA_5268.jpg) no-repeat center;
+.Module__fullWidthInternshipsCareersAftervassar {
+    background: #666 url(../../../assets/images/campuslife-internships-careers-aftervassar-a.jpg) no-repeat center;
 	background-size: cover;
 	color: #fff;
 }
