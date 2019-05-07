@@ -40,7 +40,7 @@
 
 .vassar_plaid {
 	background-size: cover;
-	background: #ebe9e8 url(../../../assets/images/about-mission-bg.png) repeat;
+	background: #ebe9e8 url(../images/about-mission-bg.png) repeat;
 }
 
 /* Specific Module Campus Life */
@@ -158,7 +158,7 @@
 	}
 }
 .u-lHeader {
-    background: #666 url(../../../assets/images/campuslife-header-Quad-fall-10-JA-272_edit.jpg) no-repeat center;
+    background: #666 url(../images/campuslife-header-Quad-fall-10-JA-272_edit.jpg) no-repeat center;
 	background-size: cover;
 }
 .Module__fullWidthInclusion {
@@ -168,12 +168,12 @@
     @extend .vassar_argyle;
 }
 .Module__fullWidthInternshipsCareersAftervassar {
-    background: #666 url(../../../assets/images/campuslife-internships-careers-aftervassar-a.jpg) no-repeat center;
+    background: #666 url(../images/campuslife-internships-careers-aftervassar-a.jpg) no-repeat center;
 	background-size: cover;
 	color: #fff;
 }
 .Module__fullWidthRecreationSports {
-    background: #666 url(../../../assets/images/campuslife-sports-Scarlett8-cropped.jpg) no-repeat top;
+    background: #666 url(../images/campuslife-sports-Scarlett8-cropped.jpg) no-repeat top;
 	background-size: cover;
 	color: #fff;	
 }
@@ -181,7 +181,7 @@
 	@extend .vassar_plaid;
 }
 .Module__fullWidthReligiousSpiritual {
-    background: #666 url(../../../assets/images/campuslife-Candles-09-NWF_3.jpg) no-repeat center;
+    background: #666 url(../images/campuslife-Candles-09-NWF_3.jpg) no-repeat center;
 	background-size: cover;
 	color: #fff;	
 }
