@@ -1,187 +1,23 @@
-
-@import "_mixins";
-@import "_config";
-.condensed_heading {
-	text-transform: uppercase;
-	font-family: $sans-serif-condensed;
-	font-weight: $fontWeightMedium;
-	letter-spacing: .1em;
-	font-size: 1em;
-}
-
-.vassar_stars {
-    background:
-    linear-gradient(324deg, #f8f7f7 4%,   transparent 4%) -70px 43px,
-    linear-gradient( 36deg, #f8f7f7 4%,   transparent 4%) 30px 43px,
-    linear-gradient( 72deg, #fff 8.5%, transparent 8.5%) 30px 43px,
-    linear-gradient(288deg, #fff 8.5%, transparent 8.5%) -70px 43px,
-    linear-gradient(216deg, #fff 7.5%, transparent 7.5%) -70px 23px,
-    linear-gradient(144deg, #fff 7.5%, transparent 7.5%) 30px 23px,
-
-    linear-gradient(324deg, #f8f7f7 4%,   transparent 4%) -20px 93px,
-    linear-gradient( 36deg, #f8f7f7 4%,   transparent 4%) 80px 93px,
-    linear-gradient( 72deg, #fff 8.5%, transparent 8.5%) 80px 93px,
-    linear-gradient(288deg, #fff 8.5%, transparent 8.5%) -20px 93px,
-    linear-gradient(216deg, #fff 7.5%, transparent 7.5%) -20px 73px,
-    linear-gradient(144deg, #fff 7.5%, transparent 7.5%) 80px 73px;
-    background-color: #f8f7f7;
-    background-size: 100px 100px;
-}
-
-.vassar_argyle {
-	background-color: #fff;
-	background-image:
-	repeating-linear-gradient(120deg, rgba(135, 36, 67,.08), rgba(135, 36, 67,.08) 2px, transparent 2px, transparent 120px),
-	repeating-linear-gradient(60deg, rgba(135, 36, 67,.08), rgba(135, 36, 67,.08) 2px, transparent 2px, transparent 120px),
-	linear-gradient(60deg, rgba(66,58,57,.04) 25%, transparent 25%, transparent 75%, rgba(66,58,57,.04) 75%, rgba(66,58,57,.04)),
-	linear-gradient(120deg, rgba(66,58,57,.04) 25%, transparent 25%, transparent 75%, rgba(66,58,57,.04) 75%, rgba(66,58,57,.04));
-	background-size: 140px 240px;
-}
-
-.vassar_plaid {
-	background-size: cover;
-	background: #ebe9e8 url(../images/about-mission-bg.png) repeat;
-}
-
-/* Specific Module Campus Life */
-
-.Module__fullWidthLeadershipDevelopment {
-	.Module__desc {
-		@extend .condensed_heading;
-		text-align: center;
-	}
-}
-.Module__fullWidthInternshipsCareersAftervassar,
-.Module__fullWidthResidentialLife,
-.Module__fullWidthHealthWellness {
-	.Module__desc {
-		text-align: center;
-	}
-}
-.Module__fullWidthRecreationSports {
-	.Module__desc {
-		@extend .condensed_heading;
-	}
-}
-@media screen {
-    .Module__fullWidthInclusion,
-	.Module__fullWidthStudentServices {
-        .Module__desc {
-            padding: 1% 0;
-            text-align: center;
-        }
+.InternshipsCareersAftervassar,
+.RecreationSports,
+.ReligiousSpiritual {
+	min-height: 37rem;
+	padding: 4%;
+    .Row {
+      padding: 2%;
+      margin-top: auto;
     }
-	.Module__fullWidthReligiousSpiritual {
-        .Module__list {
-            padding: 35% 0 0;
-		}
-	}
-	.Module__fullWidthSafetySecurity {
-        .Module__desc {
-			ul {
-				text-align: center;
-				li {
-					display: inline-block;
-				}
-				li:after {
-					content: "|";
-					margin-left: .5em;
-				}
-				li:last-child:after {
-					content: "";
-				}
-			}
-		}
-	}
-	.Module__fullWidthSafetySecurity .Module__desc ul {
-		text-align: center;
-	}
-	.Module__fullWidthInternshipsCareersAftervassar,
-	.Module__fullWidthResidentialLife,
-	.Module__fullWidthStudentLife,
-	.Module__fullWidthCivicEngagement {
-        .Module__desc {
-			ul {
-				text-align: center;
-				li {
-					display: inline-block;
-				}
-				li:after {
-					content: "|";
-					margin-left: .5em;
-				}
-				li:last-child:after {
-					content: "";
-				}
-			}
-		}		
-	}
-	.Module__fullWidthRecreationSports {
-		.Module__desc {
-			padding: 0 0 50% 0;
-		}
-	}
-    .Module__fullWidthCommunity {
-        .Module__desc {
-			padding: 5%;
-            text-align: center;
-        }
-    }
-	.Module__fullWidthInternshipsCareersAftervassar {
-		.Module__list {
-			margin-top:4%;
-            margin-bottom: 22em
-		}
-	}
+    align-items: flex-end !important;
 }
-@media all and (min-width: $medium) {
-	.Module__fullWidthSupportServices {
-		.Module__desc {
-		}
-	}
-    .Module__fullWidthInclusion,
-	.Module__fullWidthCommunity,
-	.Module__fullWidthStudentServices {
-        .Module__desc {
-            column-count: 3;
-            text-align: left;
-			li a {
-				line-height: 1.5;
-			}
-        }
-    }
-	.Module__fullWidthInternshipsCareersAftervassar {
-		.Module__list {
-			margin-top: 35em;
-            margin-bottom: 4%;
-		}
-	}
+.InternshipsCareersAftervassar {
+	background-image:url(../images/campuslife-internships-careers.jpg);
 }
-.u-lHeader {
-    background: #666 url(../images/campuslife-header-Quad-fall-10-JA-272_edit.jpg) no-repeat center;
-	background-size: cover;
+.RecreationSports {
+	background-image:url(../images/campuslife-sport-recreation-bg.jpg);
 }
-.Module__fullWidthInclusion {
-    @extend .vassar_stars;
+.ReligiousSpiritual {
+	background-image:url(../images/campuslife-Candles-09-NWF_3.jpg);
 }
-.Module__fullWidthCommunity {
-    @extend .vassar_argyle;
-}
-.Module__fullWidthInternshipsCareersAftervassar {
-    background: #666 url(../images/campuslife-internships-careers-aftervassar-a.jpg) no-repeat center;
-	background-size: cover;
-	color: #fff;
-}
-.Module__fullWidthRecreationSports {
-    background: #666 url(../images/campuslife-sports-Scarlett8-cropped.jpg) no-repeat top;
-	background-size: cover;
-	color: #fff;	
-}
-.Module__fullWidthResidentialLife {
-	@extend .vassar_plaid;
-}
-.Module__fullWidthReligiousSpiritual {
-    background: #666 url(../images/campuslife-Candles-09-NWF_3.jpg) no-repeat center;
-	background-size: cover;
-	color: #fff;	
+.u-lHeader{
+	background-image:url(../images/campuslife-header-bg.jpg);
 }
