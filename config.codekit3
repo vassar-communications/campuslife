@@ -54,6 +54,72 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/assets/images/campus-life-inclusion-diversity.jpg": {
+		"ft": 16384,
+		"iS": 133562,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/campus-life-inclusion-diversity.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/campus-life-recreation-sports-bg.jpg": {
+		"ft": 16384,
+		"iS": 88371,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/campus-life-recreation-sports-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/campus-life-religious-spiritaul-bg.jpg": {
+		"ft": 16384,
+		"iS": 145083,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/campus-life-religious-spiritaul-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/campus-life-religious-spiritual-bg.jpg": {
+		"ft": 16384,
+		"iS": 146330,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/campus-life-religious-spiritual-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/campus-life-residential-life.jpg": {
+		"ft": 16384,
+		"iS": 135780,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/campus-life-residential-life.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/images/campus-life-student-life.jpg": {
+		"ft": 16384,
+		"iS": 174904,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/images/campus-life-student-life.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/sass/_config.scss": {
 		"aP": 0,
 		"bl": 0,
