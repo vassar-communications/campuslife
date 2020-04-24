@@ -128,9 +128,12 @@
         }
     }
 	.Module__fullWidthInternshipsCareersAftervassar {
+        background: #666 url(../images/campus-life-interns-careers-after-vassar-bg.jpg) 25% center;
+		background-size: cover;
+        color: #fff;
 		.Module__list {
-			margin-top:4%;
-            margin-bottom: 22em
+			margin-bottom:4%;
+            margin-top: 22em
 		}
 	}
 }
@@ -150,12 +153,9 @@
 			}
         }
     }
-	.Module__fullWidthInternshipsCareersAftervassar {
-		.Module__list {
-			margin-top: 35em;
-            margin-bottom: 4%;
-		}
-	}
+    .Module__fullWidthInternshipsCareersAftervassar {
+        background: #666 url(../images/campus-life-interns-careers-after-vassar-bg.jpg) no-repeat center;
+    }
 }
 .u-lHeader {
     background: #666 url("../images/campus-life-header-bg.jpg") no-repeat center;
@@ -168,10 +168,12 @@
 .Module__fullWidthCommunity {
     @extend .vassar_argyle;
 }
-.Module__fullWidthInternshipsCareersAftervassar {
-    background: #666 url(../images/campuslife-internships-careers-aftervassar-a.jpg) no-repeat center;
-	background-size: cover;
-	color: #fff;
+.u-Gallery__slideAttribution {
+	margin-top: .5em;
+    display: block;
+    font-size: .8em;
+    font-weight: normal;
+    opacity: .9;
 }
 .Module__fullWidthRecreationSports {
     background: #666 url("../images/campus-life-recreation-sports-bg.jpg") no-repeat top;
