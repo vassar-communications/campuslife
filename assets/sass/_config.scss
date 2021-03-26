@@ -1,0 +1,78 @@
+$iconFont: "icons" !important;
+
+/*	TYPOGRAPHY
+	========== */
+
+$sans-serif: "Source Sans Variable", sans-serif;
+/* typekit $sans-serif: source-sans-pro, sans-serif; */
+$serif: freight-big-pro, serif;
+$fontWeightLight: 325;
+$fontWeightRegular: 400;
+$fontWeightMedium: 600;
+$fontWeightBold: 600;
+
+/*	LAYOUT
+	====== */
+
+/* Site breakpoints */
+
+$tiny: 37.25em; /* 400px divided by 16px */
+$small: 56.25em; /* 600px divided by 16px */
+$medium: 56.25em; /* 800px divided by 16px */
+$large: 62.5em; /* 1000px divided by 16px */
+$xlarge: 143.75em;
+
+/* COLOR
+	====== */
+
+$burgundy-1: #951829;
+$burgundy-2: #641A2B;
+$burgundy-bright: #ED1C24;
+$gray-border: #c1c1c1;
+$gray-light: #f0eeeb;
+$gray-basic: #63666A;
+$gray-dark: #444;
+
+$linkColor: #951829;
+$linkColorHoverFocus: #d7cfcc;
+$linkColorVisited: #63666A;
+$linkColorActive: #ED1C24;
+$linkBorderColor: #951829;
+
+/* News  */
+
+$u-ArticleListItem__title--font: $fontWeightRegular 1.33em $serif;
+$u-ArticleListItem__title--linkColor: $linkColor;
+$u-ArticleListItem__title--linkColorHoverFocus: $linkColorHoverFocus;
+$u-ArticleListItem__title--linkColorActive: $linkColorActive;
+$u-ArticleListItem__title--linkColorVisited: $linkColorVisited;
+$u-ArticleListItem__summary--font: $fontWeightRegular inherit $sans-serif;
+$u-ArticleListItem__label--type--font: $fontWeightLight .9em $sans-serif;
+$u-ArticleListItem__label--dateline__posted--font: $fontWeightLight .9em $sans-serif;
+$u-ArticleListItem__label--dateline__postedDate--font: $fontWeightLight .9em $sans-serif;
+$u-ArticleListItem__link--linkColor: $gray-dark;
+$u-ArticleListItem__link--linkColorHoverFocus: $linkColorHoverFocus;
+$u-ArticleListItem__link--linkColorActive: $linkColorActive;
+$u-ArticleListItem__link--linkColorVisited: $linkColorVisited;
+$u-ArticleListItem__summary--color: $gray-dark;
+$u-ArticleListItem__summary--colorHoverFocus: $linkColorHoverFocus;
+$u-ArticleListItem__summary--colorActive: $linkColorActive;
+$u-ArticleListItem__summary--colorVisited: $gray-dark;
+$buttonBgColor: #ccc;
+$buttonBgColorHoverFocus: #999;
+$buttonBgColorVisited: #ccc;
+$buttonBgColorActive: #666;
+$buttonLinkColor: #333;
+$buttonLinkColorHoverFocus: #fff;
+$buttonLinkColorVisited: #333;
+$buttonLinkColorActive: #ccc;
+$uniqueButtonBgColor: #666;
+$uniqueButtonBgColorHoverFocus: #999;
+$uniqueButtonBgColorVisited: #666;
+$uniqueButtonBgColorActive: #333;
+$uniqueButtonLinkColor: #fff;
+$uniqueButtonLinkColorHoverFocus: #666;
+$uniqueButtonLinkColorVisited: #fff;
+$uniqueButtonLinkColorActive: #ccc;
+$u-ArticleList__systemMessage--font: $fontWeightRegular 1.1em/1.2 $serif;
+$u-ArticleList__systemMessage--color: #400;
