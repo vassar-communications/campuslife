@@ -76,3 +76,112 @@ $uniqueButtonLinkColorVisited: #fff;
 $uniqueButtonLinkColorActive: #ccc;
 $u-ArticleList__systemMessage--font: $fontWeightRegular 1.1em/1.2 $serif;
 $u-ArticleList__systemMessage--color: #400;
+
+/* global */
+
+.title-gradient {
+    color: $burgundy-2;
+    text-transform: none;
+    background: linear-gradient(135deg, $burgundy-2 0%, $burgundy-bright 70%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.u-Masthead__head {
+    font-family: $serif;
+    font-weight: $fontWeightRegular;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 2.75rem;
+}
+.u-pageInner.u-thirdLevel {
+    .u-Masthead__head {
+        font-size: .75em;
+        text-transform: uppercase;
+        font-weight: $fontWeightLight !important;
+    }
+}
+@media screen and (min-width: $tiny) {
+    .u-lHeader {
+        margin-bottom: 2em;
+    }
+    .u-Masthead__head {
+        font-size: 5rem;
+    }
+    .u-thirdLevel .u-lHeader {
+        margin-bottom: 0;
+    }
+}
+.u-Masthead__siteName--link {
+    padding-bottom: .5em;
+}
+.Row [id] {
+   margin-top: -2em;
+   padding-top: 2em !important;
+}
+.u-lContent {
+	font-size:0.95em;
+    a {
+        &:focus,
+        &:hover,
+        &:visited:focus,
+        &:visited:hover {
+            background-color:#D0D0CE;
+            color:#63666A
+        }
+    }
+}
+main.u-lMain .u-lContent {
+    font-weight: $fontWeightLight;
+}
+.NavInline--3col li {
+    line-height: 1.2;
+}
+.RowContainer:not(.bg)+.RowContainer.bg {
+    margin-top: 2em;
+}
+.RowContainer.bg+.RowContainer:not(.bg) {
+    padding-top: 2em;
+}
+.RowContainer.bg .Row__title {
+    padding-top: 0;
+}
+.Row__title,
+.u-pageTitle {
+    font-size: 2.5em !important;
+    border: none;
+    padding: .75em 0 .15em;
+    font-family: $serif !important;
+    font-weight: $fontWeightBold !important;
+    @extend .title-gradient;
+    text-decoration:none !important;
+    text-transform: none !important;
+    text-align: left!important;
+    display: inline-block;
+}
+.Dark--scrim {
+   .Row__title {
+      color: #fff;
+    }
+}
+.bgSparkPatternMaroonWhite {
+    border: 1px solid $gray-light;
+    background-image: url(../../assets/images/Vassar_SparkPattern_maroon-white.png);
+    background-repeat: no-repeat;   
+}
+.bgQuadGrid-grey {
+    background: #d4cfce url(../../assets/images/Vassar_QuadGrid-grey.png) repeat;
+    background-size: 9em;
+    border: 1px solid $gray-light;
+}
+h3.u-ExtendedFooter__listHeader {
+    color: #fff;
+    margin-top: 0;
+    font: normal 600 1.5em/1.1 freight-big-pro,serif;
+    letter-spacing: normal;
+    text-transform: none;
+}
+.u-VCard--site .org {
+    font: $fontWeightBold 2em/1.1 $serif;
+    text-transform: capitalize;
+    letter-spacing: 0;
+}
