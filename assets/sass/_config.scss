@@ -100,6 +100,13 @@ $u-ArticleList__systemMessage--color: #400;
         font-weight: $fontWeightLight !important;
     }
 }
+.PageNavContainer .Row {
+    background: #fff;
+    box-shadow: 0 0.1em 0.3em rgba(0,0,0,0.2);
+}
+.PageNav {
+    border: none;
+}
 @media screen and (min-width: $tiny) {
     .u-lHeader {
         margin-bottom: 2em;
